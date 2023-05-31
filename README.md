@@ -1,5 +1,5 @@
 
-# Movie search engine with GUI in Python (hackathon_project)
+# Movie search engine in Python (hackathon_project)
 
 The project’s details: 
 - a basic system for searching movies, where user. can make a request to an API and get 
