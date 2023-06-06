@@ -1,11 +1,11 @@
 import requests
 import psycopg2
-from api_keys import API_KEY, POSTGRESQL_PASSWORD
+
 
 HOSTNAME = 'localhost'
 USERNAME = 'postgres'
-PASSWORD = POSTGRESQL_PASSWORD
-DATABASE = 'movies'
+PASSWORD = '1948'
+DATABASE = 'Hackathon_1'
 MOVIES_TABLE_NAME = 'movies'
 ACTORS_TABLE_NAME = 'actors'
 RESULTS_LIMIT = 5
@@ -72,7 +72,7 @@ class MoviesSource:
 
     URL = "https://api.themoviedb.org/3/"
     HEADERS = {"accept": "application/json"}
-    PARAMS = {'api_key': API_KEY, 'language': 'en-US'}
+    PARAMS = {'api_key': '8c4b0b314700fae780304987c31ee568', 'language': 'en-US'}
 
     def get_data(self, query_tail: str, params=None):
         if params is None:

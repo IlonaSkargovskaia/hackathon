@@ -14,7 +14,7 @@ class App(CTk.CTk):
         self.title("Password generator")
         self.resizable(False, False)
 
-        self.logo = CTk.CTkImage(dark_image=Image.open("hackathon/logo.png"), size=(400, 120))
+        self.logo = CTk.CTkImage(dark_image=Image.open("logo.png"), size=(400, 120))
         self.logo_label = CTk.CTkLabel(master=self, text="", image=self.logo)
         self.logo_label.grid(row=0, column=0)
 

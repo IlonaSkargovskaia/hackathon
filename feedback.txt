@@ -1,0 +1,12 @@
+Sergo and Ilona: Congrats for making an amazing project to your first Hackathon! 
+The code is working and I can see the effort you've put on it. Good job!
+Here are my comments to your improvement:
+The code seems slightly disorganized:I noticed a password generator within the hackathon repo 
+that doesn't appear to be connected to the project and should have been removed. 
+It would be beneficial to specify in the README file which file needs to be run to initiate the program. 
+The 'main.py' file should always be the one that runs the program, so I suggest you rename 'menu.py' to 'main.py' and find a new name for the existing 'main.py' file.
+
+Python OOP: 10/10
+Databases: 7/10
+API/JSON: 10/10
+General score: 8
